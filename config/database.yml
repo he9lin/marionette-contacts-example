@@ -1,0 +1,12 @@
+development: &DEV
+  adapter: postgresql
+  encoding: unicode
+  database: circles_development
+  pool: 5
+  template: template1
+  username: vagrant
+  password: vagrant
+
+test: &TEST
+  <<: *DEV
+  database: circles_test

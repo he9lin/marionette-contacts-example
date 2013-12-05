@@ -1,0 +1,21 @@
+//= require_self
+//= require jquery-ui-1.10.0.custom
+
+@import "bootstrap";
+
+body {
+  padding-top: 60px;
+  a.brand {
+    color: #999;
+    font-size: 1.5em;
+    line-height: 48px;
+    margin-right: 30px;
+    &:hover {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+  .form-search {
+    width: 300px;
+  }
+}

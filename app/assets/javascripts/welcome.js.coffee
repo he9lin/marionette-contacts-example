@@ -1,0 +1,25 @@
+#= require_self
+#= require contact_manager/common/views
+#= require contact_manager/config/storage/localstorage
+#= require contact_manager/config/marionette/regions/dialog
+#= require contact_manager/app
+#= require contact_manager/entities/common
+#= require contact_manager/entities/header
+#= require contact_manager/entities/contact
+#= require contact_manager/contacts/common/views
+#= require contact_manager/contacts/list/list_view
+#= require contact_manager/contacts/list/list_controller
+#= require contact_manager/contacts/show/show_view
+#= require contact_manager/contacts/show/show_controller
+#= require contact_manager/contacts/edit/edit_view
+#= require contact_manager/contacts/edit/edit_controller
+#= require contact_manager/contacts/new/new_view
+#= require contact_manager/contacts/contacts_app
+#= require contact_manager/about/show/show_view
+#= require contact_manager/about/show/show_controller
+#= require contact_manager/about/about_app
+#= require contact_manager/header/list/list_view
+#= require contact_manager/header/list/list_controller
+#= require contact_manager/header/header_app
+
+window.ContactManager = new Marionette.Application()
